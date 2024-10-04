@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Pendaftaran Siswa</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="intro.html" target="_blank">Kembali ke Home</a>
+        </nav>
+    </div>
+    <!-- start of form section -->
+    <section>   
+        <h1>Formulir Pendaftaran Siswa</h1>
+        <form action="#">
+            <!-- nama -->
+            <div>
+                <label>Nama Calon Siswa :</label>
+                <input type="text">
+            </div>
+            <br> 
+            <!-- TTL -->
+            <div>
+                <label>Tempat/Tanggal Lahir :</label>
+                <input type="date">
+            </div>
+            <br/>
+            <!-- Agama -->
+            <div>
+                <label>Agama :</label>
+                <select>
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                    <option value="konghucu">Konghucu</option>
+                </select>
+            </div>
+            <br/>
+            <!-- Alamat -->
+            <div>
+                <label>Alamat :</label>
+                <textarea type="textarea"></textarea>
+            </div>
+            <br/>
+            <!-- JK -->
+            <div>
+                <label>Jenis Kelamin :</label>
+                <input type="radio" name="jk" value="Pria"/>
+                    <label for="Pria">Pria</label>
+                <input type="radio" name="jk" value="Wanita"/>
+                    <label for="Wanita">Wanita</label>
+            </div>
+            <br/>
+            <!-- Ekskul -->
+             <div>
+                <label>Ekstrakurikuler :</label>
+                <input type="checkbox" name="paskibra" value="Paskibra"/>
+                    <label for="Paskibra">Paskibra</label>
+                <input type="checkbox" name="futsal" value="Futsal"/>
+                    <label for="Futsal">Futsal</label>
+                <input type="checkbox" name="basket" value="Basket"/>
+                    <label for="Basket">Basket</label>
+                <input type="checkbox" name="renang" value="Renang"/>
+                    <label for="Renang">Renang</label>
+                <input type="checkbox" name="tari" value="Tari"/>
+                    <label for="Tari">Tari</label>
+             </div>
+             <br/>
+             <!-- Upload -->
+             <div>
+                <label>Pas Foto :</label>
+                <input type="file" multiple>
+             </div>
+             <br/>
+             <!-- submit -->
+             <div>
+                <button type="submit">Kirim</button>
+             </div>
+        </form>
+    </section>
+</body>
+</html>
